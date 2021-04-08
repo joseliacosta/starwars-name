@@ -1,0 +1,25 @@
+{
+  "name": "starwars-names",
+  "version": "1.0.0",
+  "description": "Get random Star Wars names",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joselialcosta/starwars-name.git"
+  },
+  "keywords": [
+    "starwars"
+  ],
+  "author": "Josélia L. Costa (https://github.com/joselialcosta)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joselialcosta/starwars-name/issues"
+  },
+  "homepage": "https://github.com/joselialcosta/starwars-name#readme",
+  "devDependencies": {
+    "unique-random-array": "2.0.0"
+  }
+}
