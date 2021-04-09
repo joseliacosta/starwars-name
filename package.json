@@ -1,14 +1,15 @@
 {
   "name": "testing-semantic-release-with-starwars-names",
-  "version": "1.1.0",
+  "version": "0.0.0-development",
   "description": "Get random Star Wars names",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha src/index.test.js -w",
+    "semantic-release": "semantic-release-pre && npm publish"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joselialcosta/starwars-name.git"
+    "url": "https://github.com/joselialcosta/starwars-name.git"
   },
   "keywords": [
     "starwars"
@@ -20,6 +21,10 @@
   },
   "homepage": "https://github.com/joselialcosta/starwars-name#readme",
   "devDependencies": {
+    "chai": "4.3.4",
+    "mocha": "8.3.2",
+    "semantic-release": "^17.4.2",
+    "@semantic-release/git": "^9.0.0",
     "unique-random-array": "2.0.0"
   }
 }
